@@ -57,7 +57,7 @@ var GallaryPage = React.createClass({
     render() {
         return (
 
-        	<DocumentTitle title="Gallarys">
+        	<DocumentTitle title="Gallery">
                 
 	        	<div className='container'>
                 <div className='display'> 
