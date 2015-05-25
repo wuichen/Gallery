@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+
+      <title>App Name</title>
+      <style>
+        body {
+          margin: 0;
+          padding: 0;
+        }
+
+        .showingArtImage {
+          width: 90%;
+        }
+
+        .showingArt {
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          overflow: auto;
+        }
+
+        .previousButton {
+          text-align: center;
+          float: left;
+          width: 40%;
+          cursor: pointer;
+
+        }
+
+        .nextButton {
+          text-align: center;
+          float: right;
+          width: 40%;
+          cursor: pointer;
+        }
+
+        .text {
+          width: 90%;
+          margin-right: auto;
+          margin-left: auto;
+          font-weight: 100;
+        }
+
+
+        @media screen and (min-width:600px) {
+          .artText, .artHr{
+            display: none;
+          }
+          .gallary{
+              float: left;
+              width: 50%;
+              height: 600px;
+              overflow: scroll;
+          }
+          .display {
+              float: right;
+              width: 50%;
+          }
+        }
+        @media screen and (max-width:599px) {
+          .artImage{
+            width: 90%;
+          }
+          .artText{
+            color: #313131;
+            font-weight: 100;
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          .display{
+            display: none
+          }
+        }
+      </style>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  </head>
+  <body style="margin:">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <div id="app"></div>
+
+    <script src="/js/main.js"></script>
+
+  </body>
+</html>
